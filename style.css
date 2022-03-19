@@ -89,13 +89,13 @@ div.item {
     padding: 20px;
 }
 
+img {
+    width: 30vw;
+}
+
 h2, p {
     margin: 0 auto;
     width: 30vw;
     background-color: rgb(255, 180, 42);
     color: white;
-}
-
-img {
-      width: 30vw;
 }
