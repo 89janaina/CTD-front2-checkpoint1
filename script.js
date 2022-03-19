@@ -5,29 +5,29 @@ let addButtonReference = document.querySelector('#addButton');
 
 let cardsReference = document.querySelector('#cards');
 
-let posts = []
+let post = "";
 
-addButtonReference.addEventListener('click',function(event){
-    
-    let titleIdReference = document.querySelector('#titleId').value;
-    let descriptionIdReference = document.querySelector('#descriptionId').value;
-    let imageIdReference = document.querySelector('#imageId').value;
+let posts = [];
 
-    posts.push ({
-        titleId: titleIdReference,
-        descriptionId: descriptionIdReference,
-        imageId: imageIdReference
-    })
+//evento
+
+addButtonReference.addEventListener('click', function(event){
+
     event.preventDefault()
-    console.log(posts)
 
-    for(let post of posts){
-        cardsReference.innerHTML+=`
-        <div class="item">
-                <img src="${post.imageId}">
-                <h2>${post.titleId}</h2>
-                <p>${post.descriptionId}</p>
-            </div>
-        `
-    }
+    //input para receber Dados
+
+    post = { titleId: titleIdReference.value, descriptionId: descriptionIdReference.value,  imageId: imageIdReference.value}
+
+    cardsReference.innerHTML += (`
+   
+    <div class="item">
+        <img src="${post.imageId}">
+        <h2>${post.titleId}</h2>
+        <p>${post.descriptionId}</p>
+    </div>    
+</div>`)
+
+posts.push(post)
+    
 })
