@@ -83,18 +83,6 @@ input {
     color: rgb(255, 180, 42);
 }
 
-div#cards {
-    /*margin: 0 auto;
-    width: 30px;
-    padding: 20px;
-    display: flex; 
-    flex-direction: column; 
-    justify-content: center;
-    flex-wrap: wrap;
-    background-color: rgb(255, 180, 42);
-    */
-}
-
 div.item {
     margin: 0 auto;
     background-color: rgb(255, 180, 42);
