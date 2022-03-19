@@ -1,0 +1,113 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400&display=swap');
+
+* {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0; 
+    background-color: white;
+    font-family: 'Roboto', sans-serif;
+    font-style: normal;
+    color:black;
+}
+
+body {
+    width: 100vw;
+    height: 100vw;
+    background-color: rgb(255, 180, 42);
+    text-align: center;
+}
+
+header {
+    width: 100%;
+    top: 0;
+    background-color: rgb(255, 180, 42);
+    color: white;
+    padding: 50px;
+    z-index: 100;
+    font-size: 24px;
+    text-align: center;
+    font-size: 50px;
+}
+
+form {
+    background-color: rgb(108, 48, 148);
+    font-family: 'Roboto', Arial, sans-serif;
+    width: 100vw;
+    margin: 0 auto;
+    padding-bottom: 20px;
+    text-align: center;
+}
+
+h1 {
+    background-color: rgba(255, 255, 255, 0);
+    color: white;
+    font-size: 28px;
+    padding: 20px;
+}
+
+.area {
+    background-color: rgb(108, 48, 148);
+    text-align: center;
+}
+
+label {
+    background-color: rgb(108, 48, 148);
+    color: white;
+    display: block;
+    text-align: center;
+}
+
+input {
+    display: block;
+    text-align: center;
+    width: 30vw;
+    margin: auto;
+    margin-top: 10px;
+    margin-bottom: 20px;
+    padding: 10px;
+    border: none;
+    border-radius: 20px;
+}
+
+#addButton {
+    background-color: rgb(255, 180, 42);
+    color: white;
+    border: none;
+    border-radius: 20px;
+    box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.5);
+    padding: 10px;
+ }
+
+#addButton:hover {
+    background-color: white;
+    color: rgb(255, 180, 42);
+}
+
+div#cards {
+    /*margin: 0 auto;
+    width: 30px;
+    padding: 20px;
+    display: flex; 
+    flex-direction: column; 
+    justify-content: center;
+    flex-wrap: wrap;
+    background-color: rgb(255, 180, 42);
+    */
+}
+
+div.item {
+    margin: 0 auto;
+    background-color: rgb(255, 180, 42);
+    padding: 20px;
+}
+
+h2, p {
+    margin: 0 auto;
+    width: 30vw;
+    background-color: rgb(255, 180, 42);
+    color: white;
+}
+
+img {
+      width: 30vw;
+}

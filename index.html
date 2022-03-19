@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Checkpoint - Front-End II</title>
+    <link rel="stylesheet" href="./style.css">
+</head>
+<body>
+    <header>Kitchen Stories</header>
+    <form name="checkpoint">
+        <h1>Cookbook</h1>
+
+        <div class="area">
+        <label for="title">Recipe title</label> 
+        <input type="text" class='input1' id="titleId" placeholder="Enter a title" required="required" name="title"/>
+        </div>
+
+        <div class="area"> 
+        <label for="description">Recipe description</label> 
+        <input type="text" class='input2' id="descriptionId" placeholder="Enter a description" required="required" name="description"/>
+        </div>
+        
+        <div class="area">
+        <label for="image">Image</label> 
+        <input type="text" class='input3' id="imageId" placeholder="Enter your image URL" required="required" name="image"/>
+        </div>
+        
+        <input type="submit" class='button1' id="addButton" value="Register"/>
+    </form> 
+
+    <h1>Posts</h1>
+
+        <div id="cards"></div>
+
+    <script src="./script.js"></script>
+</body>
+</html>
