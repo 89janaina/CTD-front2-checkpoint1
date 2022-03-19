@@ -25,7 +25,7 @@ addButtonReference.addEventListener('click',function(event){
         cardsReference.innerHTML+=`
         <div class="item">
                 <img src="${post.imageId}">
-                <h2> ${post.titleId}</h2>
+                <h2>${post.titleId}</h2>
                 <p>${post.descriptionId}</p>
             </div>
         `
